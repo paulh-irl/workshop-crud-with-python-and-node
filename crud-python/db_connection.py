@@ -3,11 +3,11 @@ from cassandra.cluster import Cluster
 from cassandra.auth import PlainTextAuthProvider
 
 # This is the Zip file you downloaded
-SECURE_CONNECT_BUNDLE = '/workspace/workshop-crud-with-python-and-node/crud-python/creds.zip'
+SECURE_CONNECT_BUNDLE = '/home/mobaxterm/workshop-crud-with-python-and-node/creds.zip'
 # This is the username, recommended value was SUser
-USERNAME = "SUser";
+USERNAME = "KVUser";
 # This is the password, recommended value was SPassword1
-PASSWORD = "SPassword1";
+PASSWORD = "KVPassword1";
 # This is the keyspace name, recommended value was spacecraft
 KEYSPACE = "spacecraft"; 
 
